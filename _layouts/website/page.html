@@ -52,9 +52,9 @@
                 {% block page_inner %}
                 {% for section in content %}
                     <section class="{{ section.type }}" id="section-{{ section.id }}">
-                    {% if section.type == "normal" %}
-                        {% autoescape false %}{{ section.content }}{% endautoescape %}
-                    {% endif %}
+                    <!-- {% if section.type == "normal" %} -->
+                        <!-- {% autoescape false %}{{ section.content }}{% endautoescape %} -->
+                    <!-- {% endif %} -->
                     </section>
                 {% endfor %}
                 {% endblock %}
