@@ -83,7 +83,7 @@
 {% endfor %}
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {% autoescape false %}{{ pluginsConfig }}{% endautoescape %};
+    var config = { pluginsConfig };
     gitbook.start(config);
 });
 </script>
