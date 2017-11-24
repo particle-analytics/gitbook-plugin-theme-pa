@@ -1,0 +1,17 @@
+{
+    "name": "gitbook-plugin-theme-pa",
+    "description": "gitbook plugin theme particle analytics",
+    "version": "0.0.5",
+    "engines": {
+        "gitbook": ">=3.0.0"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/particle-analytics/gitbook-plugin-theme-pa.git"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/particle-analytics/gitbook-plugin-theme-pa/issues"
+    }
+}
